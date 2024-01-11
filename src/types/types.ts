@@ -12,4 +12,6 @@ export enum EmptyCell {
 }
 export type CellOptions = Block | EmptyCell
 
+export type BlockShape = boolean[][]
+
 export type BoardShape = CellOptions[][]
